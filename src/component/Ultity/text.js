@@ -1,0 +1,1 @@
+export const error_text = "Đã có lỗi xảy ra, hãy thử lại hoặc thông báo cho page owner"

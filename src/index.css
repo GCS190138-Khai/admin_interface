@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+};
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    width: 2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius:40rem;
+    
+  }
+  @layer base {
+  ul {
+  padding:0;
+
+  }
+  li::marker{
+    margin:0;
+    text-align: center;
+    font-size:12px;
+    padding-bottom:50%;
+  }
+}
+body {
+   color:#191919 ;
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
+  width: 100vw !important;
+
+}
+html{
+  width: 100vw !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+   --writer-primary:#5644c1;
+  --writer-width:600px;
+  --writer-height:400px;
+}
